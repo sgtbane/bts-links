@@ -27,7 +27,7 @@ function menuCreate() {
 	} else {
 		console.log('CSS Stylesheet already exists, Updating the url to force it to reload.');
 	}
-	elemCSS.href = "https://home.manticore.ca/bts/css.css?"+Math.random();
+	elemCSS.href = "https://sgtbane.github.io/bts-links/css.css?"+Math.random();
 	
 	//Create the menu
 	var HTMLHeader = `
